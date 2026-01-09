@@ -1,0 +1,23 @@
+{
+	"name": "prisma-next-demo",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"prisma:generate": "prisma generate",
+		"prisma:push": "prisma db push"
+	},
+	"dependencies": {
+		"next": "13.5.7",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"prisma": "5.11.0",
+		"@prisma/client": "5.11.0"
+	},
+	"engines": {
+		"node": ">=18"
+	}
+}
